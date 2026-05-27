@@ -6,6 +6,9 @@
     "dev": "node --watch src/app.js",
     "start": "node src/app.js"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.51.0",
     "cors": "^2.8.5",
